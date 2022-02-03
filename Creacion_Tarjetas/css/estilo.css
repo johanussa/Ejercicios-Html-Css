@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(235, 224, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center {
+    text-align: center;
+}
+h1, h2 {
+    font-size: 2em;
+}
+h2 {
+    color: rgb(44, 44, 44);
+    font-weight: 200;
+    line-height: 0;
+    padding-top: 25px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+    padding-top: 0;
+    margin-top: 0;
+}
+p.center {
+    color: rgb(82, 82, 82);
+    text-shadow: 1px 1px 4px;
+}
+.card {
+    width: 22%;
+    min-width: 300px;
+    min-height: 190px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 18px 20px 15px 28px;
+    position: relative;
+}
+.card1, .card2 {
+    margin: auto;
+}
+.card1 {
+    top: 80px;
+}
+.card2 {
+    top: 120px;
+}
+.card3 {
+    bottom: 220px;
+    left: 80px;
+}
+.card4 {
+    position: absolute;
+    top: 458px;
+    right: 80px;
+}

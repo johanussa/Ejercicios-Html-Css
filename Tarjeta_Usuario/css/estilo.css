@@ -1,0 +1,99 @@
+body {
+    background: -webkit-linear-gradient(bottom left, 
+        rgb(56, 161, 199), rgb(27, 114, 121));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: calc(100vh - 16px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    position: relative;
+    background-color: aliceblue;    
+}
+.container2 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+.circle1 {
+    width: 600px;
+    height: 600px;
+    background: -webkit-linear-gradient(right bottom, 
+        rgb(56, 161, 199), rgb(46, 139, 146));
+    position: absolute;
+    top: -140px;
+    left: -140px;
+    border-radius: 300px;
+}
+.circle2 {
+    width: 600px;
+    height: 600px;
+    background: -webkit-linear-gradient(right bottom, 
+        rgb(56, 161, 199), rgb(46, 139, 146));
+    position: absolute;
+    bottom: -140px;
+    right: -140px;
+    border-radius: 300px;
+}
+.container-info {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid rgb(46, 139, 146);
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+.fondo-tarjeta {
+    width: 100%;
+    height: 30%;
+    background:-webkit-linear-gradient(right, 
+        rgb(100, 183, 228), rgb(47, 156, 196));
+}
+.info-user {
+    position: absolute;
+    background-color: #fff;
+    bottom: 10px;
+    height: 70px;
+}
+.info-user-div {
+    width: 100%;
+    height: 100%;
+}
+.info-user-div div {
+    text-align: center;
+    line-height: 0.3;
+    width: 116.6px;
+    padding-bottom: 10px;
+    float: left;
+}
+.data-user {
+    width: 100%;
+    height: 34%;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+    line-height: 0.5;
+    text-align: center;
+    padding-top: 40px;
+}
+.photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: rgb(21, 142, 207);
+    position: relative;
+    bottom: 220px;
+    margin: auto;
+    overflow: hidden;
+}
+.img {
+    width: 100%;
+}
