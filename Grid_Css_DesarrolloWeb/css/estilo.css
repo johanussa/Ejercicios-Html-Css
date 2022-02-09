@@ -1,0 +1,106 @@
+body {
+    background: -webkit-linear-gradient(rgb(221, 203, 203), grey);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.contain {
+    width: 1080px;
+    height: 600px;
+    margin: 40px auto;
+    position: relative;
+    margin-bottom: 55px;
+}
+.card {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 16px 30px;
+    position: absolute;
+    color: #fff;
+}
+aside.card1 {
+    width: 520px;
+    height: 292px;
+    top: 0;
+    left: 0;
+    background-color: hsl(263, 55%, 52%);
+}
+aside.card2 {
+    width: 315px;
+    height: 292px;
+    top: 0;
+    left: 533px;
+    padding: 18px;
+    background-color: hsl(217, 19%, 35%);
+}
+aside.card3 {
+    width: 20.25%;
+    height: 600px;
+    top: 0;
+    left: 861px;
+    padding: 14px;
+    background-color: #fff;
+    color: #000;
+}
+aside.card4 {
+    width: 315px;
+    height: 293px;
+    top: 307px;
+    left: 0px;
+    padding: 18px;
+    background-color: azure;
+    color: #000;
+}
+aside.card5 {
+    width: 520px;
+    height: 293px;
+    top: 307px;
+    left: 329px;
+    background-color: hsl(219, 29%, 14%);
+}
+.perfil {
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 20px;
+    background-color: rgb(132, 192, 255);
+}
+h4 {
+    font-size: 1.2em;
+    position: relative;
+}
+.comillas {
+    width: 80px;
+    position: absolute;
+    top: 60px;     
+    opacity: 0.5;
+}
+.card1 h4, .card5 h4 {
+    margin: 12px 0px;
+}
+.title {
+    display: inline-block;
+    line-height: 0.5em;
+    width: 222px;    
+    text-align: center;
+    vertical-align: top;
+}
+.card2 .title {
+    width: 190px;
+    display: inline-block;
+}
+.card3 .title {
+    width: 127px;
+    padding: 0;
+    margin: 0;
+}
+.card4 .title {
+    width: 178px;
+    padding: 0;
+    margin: 0;
+}
+.card3 .perfil {
+    margin-right: 5px;
+    width: 50px;
+}
